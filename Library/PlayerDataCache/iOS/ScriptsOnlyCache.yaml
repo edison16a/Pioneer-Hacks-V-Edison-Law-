@@ -9,6 +9,7 @@ ScriptsOnlyBuild:
     - Niantic.ARDK.Extensions.CapabilityChecker
     - Niantic.ARDK.Extensions.Meshing.ARMeshManager
     - Niantic.ARDK.Extensions.Permissions.AndroidPermissionRequester
+    - Niantic.ARDK.Utilities._CallbackQueue
     Assembly-CSharp.dll:
     - ArSceneManager
     - CoinPicker
@@ -124,37 +125,37 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1600}
+      Script: {instanceID: 1602}
     - Class: 114
-      Script: {instanceID: 2572}
+      Script: {instanceID: 2576}
     - Class: 114
-      Script: {instanceID: 2912}
+      Script: {instanceID: 2916}
     - Class: 114
-      Script: {instanceID: 3134}
+      Script: {instanceID: 3138}
     - Class: 114
-      Script: {instanceID: 3182}
+      Script: {instanceID: 3186}
     - Class: 114
-      Script: {instanceID: 4870}
+      Script: {instanceID: 4874}
     - Class: 114
-      Script: {instanceID: 5066}
+      Script: {instanceID: 5070}
     - Class: 114
-      Script: {instanceID: 5396}
+      Script: {instanceID: 5400}
     - Class: 114
-      Script: {instanceID: 5640}
+      Script: {instanceID: 5644}
     - Class: 114
-      Script: {instanceID: 6052}
+      Script: {instanceID: 6056}
     - Class: 114
-      Script: {instanceID: 6136}
+      Script: {instanceID: 6140}
     - Class: 114
-      Script: {instanceID: 6876}
+      Script: {instanceID: 6880}
     - Class: 114
-      Script: {instanceID: 7048}
+      Script: {instanceID: 7052}
     - Class: 114
-      Script: {instanceID: 7470}
+      Script: {instanceID: 7474}
     - Class: 114
-      Script: {instanceID: 8662}
+      Script: {instanceID: 8666}
     - Class: 114
-      Script: {instanceID: 8734}
+      Script: {instanceID: 8738}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -205,37 +206,37 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1600}
+      Script: {instanceID: 1602}
     - Class: 114
-      Script: {instanceID: 2394}
+      Script: {instanceID: 2398}
     - Class: 114
-      Script: {instanceID: 2912}
+      Script: {instanceID: 2916}
     - Class: 114
-      Script: {instanceID: 2938}
+      Script: {instanceID: 2942}
     - Class: 114
-      Script: {instanceID: 3182}
+      Script: {instanceID: 3186}
     - Class: 114
-      Script: {instanceID: 3556}
+      Script: {instanceID: 3560}
     - Class: 114
-      Script: {instanceID: 4124}
+      Script: {instanceID: 4128}
     - Class: 114
-      Script: {instanceID: 4712}
+      Script: {instanceID: 4716}
     - Class: 114
-      Script: {instanceID: 4798}
+      Script: {instanceID: 4802}
     - Class: 114
-      Script: {instanceID: 4846}
+      Script: {instanceID: 4850}
     - Class: 114
-      Script: {instanceID: 5174}
+      Script: {instanceID: 5178}
     - Class: 114
-      Script: {instanceID: 6136}
+      Script: {instanceID: 6140}
     - Class: 114
-      Script: {instanceID: 6876}
+      Script: {instanceID: 6880}
     - Class: 114
-      Script: {instanceID: 7048}
+      Script: {instanceID: 7052}
     - Class: 114
-      Script: {instanceID: 7470}
+      Script: {instanceID: 7474}
     - Class: 114
-      Script: {instanceID: 8674}
+      Script: {instanceID: 8678}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -296,35 +297,35 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1600}
+      Script: {instanceID: 1602}
     - Class: 114
-      Script: {instanceID: 2272}
+      Script: {instanceID: 2276}
     - Class: 114
-      Script: {instanceID: 2912}
+      Script: {instanceID: 2916}
     - Class: 114
-      Script: {instanceID: 3182}
+      Script: {instanceID: 3186}
     - Class: 114
-      Script: {instanceID: 4058}
+      Script: {instanceID: 4062}
     - Class: 114
-      Script: {instanceID: 4470}
+      Script: {instanceID: 4474}
     - Class: 114
-      Script: {instanceID: 4640}
+      Script: {instanceID: 4644}
     - Class: 114
-      Script: {instanceID: 6136}
+      Script: {instanceID: 6140}
     - Class: 114
-      Script: {instanceID: 6718}
+      Script: {instanceID: 6722}
     - Class: 114
-      Script: {instanceID: 6876}
+      Script: {instanceID: 6880}
     - Class: 114
-      Script: {instanceID: 7048}
+      Script: {instanceID: 7052}
     - Class: 114
-      Script: {instanceID: 7470}
+      Script: {instanceID: 7474}
     - Class: 114
-      Script: {instanceID: 8418}
+      Script: {instanceID: 8422}
     - Class: 114
-      Script: {instanceID: 8436}
+      Script: {instanceID: 8440}
     - Class: 114
-      Script: {instanceID: 9614}
+      Script: {instanceID: 9618}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1853,4 +1854,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/LogoIntro.unity
   - Assets/Scenes/TrashGame.unity
   - Assets/Scenes/ARScene.unity
-  playerPath: /Users/edisonlaw/Documents/Trash Go Official App Publish Build
+  playerPath: /Users/edisonlaw/Documents/Pioneer Hacks V GitHub/Build Version 0.1

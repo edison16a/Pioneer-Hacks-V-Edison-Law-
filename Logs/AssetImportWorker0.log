@@ -367,3 +367,103 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 196.953912 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset
+  artifactKey: Guid(125cb55b44b24c4393181402bc6200e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset using Guid(125cb55b44b24c4393181402bc6200e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3380ff75af64dc74891bc5e2a155c1a0') in 2.314600 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 275.492521 seconds.
+  path: Assets/C#.png
+  artifactKey: Guid(240eda546ef2b44358aa69795dd3b08b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/C#.png using Guid(240eda546ef2b44358aa69795dd3b08b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31b1026433bfc02693da0a0af7a8c21a') in 0.019309 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 50.101333 seconds.
+  path: Assets/ARDK/Editor/Icons/Undo.png
+  artifactKey: Guid(f10206d7ca20945b39792c3d3261dc69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARDK/Editor/Icons/Undo.png using Guid(f10206d7ca20945b39792c3d3261dc69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '355f70fffe199d2100034e77517dc382') in 0.037294 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/undo-light@2x.png
+  artifactKey: Guid(497a860dcf38eca4485e2b936e03bef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/undo-light@2x.png using Guid(497a860dcf38eca4485e2b936e03bef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a747c67ecc2141e64da78976e1ba33dc') in 0.017893 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/undo-light.png
+  artifactKey: Guid(48a8d899ebcc4e84db1a2ffd2bb4e9e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/undo-light.png using Guid(48a8d899ebcc4e84db1a2ffd2bb4e9e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd258922cbc12158fedb8ee1c81ff8d5e') in 0.016656 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/undo-dark@2x.png
+  artifactKey: Guid(9af18154bd2effd4f813d58651798b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/undo-dark@2x.png using Guid(9af18154bd2effd4f813d58651798b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5db107c239e4fc7b0d103c42e20274d') in 0.016877 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.894444 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_cloudbuho.png
+  artifactKey: Guid(e5600378dd761e64d9423790c482bf36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_cloudbuho.png using Guid(e5600378dd761e64d9423790c482bf36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9645a8fcd660ec3b5ed19d0c59ae96fb') in 0.032532 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_colorbuhoshe.png
+  artifactKey: Guid(a04ecc9d5e12d5d449077414eb86635e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_colorbuhoshe.png using Guid(a04ecc9d5e12d5d449077414eb86635e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0470da9cb920c77d37276c226798e667') in 0.034628 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_colorbuhoshechristmas.png
+  artifactKey: Guid(ec03f79379868c642b48ae5ddc821b6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_colorbuhoshechristmas.png using Guid(ec03f79379868c642b48ae5ddc821b6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '078d69f3ce19ef16c5a39f6a482b1750') in 0.034367 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_colorbuhochristmas.png
+  artifactKey: Guid(fd098fb4cf57bad419701c802e442b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_colorbuhochristmas.png using Guid(fd098fb4cf57bad419701c802e442b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3231fc7e36637a8a2e7ca53f72c0ecd') in 0.033439 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_cloudbuhoshe.png
+  artifactKey: Guid(dae33700bd23f76409a80bf78fdb8a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_cloudbuhoshe.png using Guid(dae33700bd23f76409a80bf78fdb8a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4181442cdbed45bef4c3e505e91d1804') in 0.035258 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+AssetImportWorker is now disconnected from the server
+Process exiting
+libc++abi: terminating due to uncaught exception of type std::__1::system_error: mutex lock failed: Invalid argument
+Obtained 28 stack frames.
+#0  0x007ff80c3591f2 in __pthread_kill
+#1  0x007ff80c2b7b45 in abort
+#2  0x007ff80c34b282 in abort_message
+#3  0x007ff80c33d3e1 in demangling_terminate_handler()
+#4  0x007ff80c0117d6 in _objc_terminate()
+#5  0x007ff80c34a6db in std::__terminate(void (*)())
+#6  0x007ff80c34a696 in std::terminate()
+#7  0x00000167d9f677 in folly::threadlocal_detail::StaticMeta<void, void>::onForkChild()
+#8  0x007ff80c262ba1 in __cxa_finalize_ranges
+#9  0x007ff80c2629bb in exit
+#10 0x0000010f4a67e4 in ExitDontLaunchBugReporter(int)
+#11 0x007ff80c1eed91 in _dispatch_call_block_and_release
+#12 0x007ff80c1f0033 in _dispatch_client_callout
+#13 0x007ff80c1fcfcf in _dispatch_main_queue_drain
+#14 0x007ff80c1fcc07 in _dispatch_main_queue_callback_4CF
+#15 0x007ff80c4ac205 in __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+#16 0x007ff80c46bf2f in __CFRunLoopRun
+#17 0x007ff80c46af31 in CFRunLoopRunSpecific
+#18 0x007ff815ee6dad in RunCurrentEventLoopInMode
+#19 0x007ff815ee6bbe in ReceiveNextEventCommon
+#20 0x007ff815ee6918 in _BlockUntilNextEventMatchingListInModeWithFilter
+#21 0x007ff80f4ff5d0 in _DPSNextEvent
+#22 0x007ff80f4fe47a in -[NSApplication(NSEvent) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+#23 0x007ff80f4f0ae8 in -[NSApplication run]
+#24 0x007ff80f4c4d02 in NSApplicationMain
+#25 0x0000010f4b72b5 in EditorMain(int, char const**)
+#26 0x0000010f4b75d9 in main
+#27 0x007ff80c03741f in start

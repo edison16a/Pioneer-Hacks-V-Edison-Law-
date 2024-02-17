@@ -337,3 +337,60 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 6103.518805 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/undo-dark.png
+  artifactKey: Guid(9f379314652051f4aa49201b44eae54d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/undo-dark.png using Guid(9f379314652051f4aa49201b44eae54d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '647bcb66ec0d4dc0c0191d488d5de165') in 0.359326 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.658570 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_cloudbuhochristmas.png
+  artifactKey: Guid(70632ddfe8e71b04b8f90ef7e29a9e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_cloudbuhochristmas.png using Guid(70632ddfe8e71b04b8f90ef7e29a9e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6239e2fd63b2c415810e513730f7cc35') in 0.112239 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_cloudbuhoshechristmas.png
+  artifactKey: Guid(9c0d6ec706e01ce448aea81584af092b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_cloudbuhoshechristmas.png using Guid(9c0d6ec706e01ce448aea81584af092b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ad58aeac897fe458e8e9941d4aff84e') in 0.036214 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_colorbuho.png
+  artifactKey: Guid(3a0c527d7f890d64a9b56b086e6e766a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_colorbuho.png using Guid(3a0c527d7f890d64a9b56b086e6e766a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c366875830e44ebfb14be8345ddae35') in 0.039245 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+libc++abi: terminating due to uncaught exception of type std::__1::system_error: mutex lock failed: Invalid argument
+Obtained 28 stack frames.
+#0  0x007ff80c3591f2 in __pthread_kill
+#1  0x007ff80c2b7b45 in abort
+#2  0x007ff80c34b282 in abort_message
+#3  0x007ff80c33d3e1 in demangling_terminate_handler()
+#4  0x007ff80c0117d6 in _objc_terminate()
+#5  0x007ff80c34a6db in std::__terminate(void (*)())
+#6  0x007ff80c34a696 in std::terminate()
+#7  0x00000160081677 in folly::threadlocal_detail::StaticMeta<void, void>::onForkChild()
+#8  0x007ff80c262ba1 in __cxa_finalize_ranges
+#9  0x007ff80c2629bb in exit
+#10 0x000001077457e4 in ExitDontLaunchBugReporter(int)
+#11 0x007ff80c1eed91 in _dispatch_call_block_and_release
+#12 0x007ff80c1f0033 in _dispatch_client_callout
+#13 0x007ff80c1fcfcf in _dispatch_main_queue_drain
+#14 0x007ff80c1fcc07 in _dispatch_main_queue_callback_4CF
+#15 0x007ff80c4ac205 in __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+#16 0x007ff80c46bf2f in __CFRunLoopRun
+#17 0x007ff80c46af31 in CFRunLoopRunSpecific
+#18 0x007ff815ee6dad in RunCurrentEventLoopInMode
+#19 0x007ff815ee6bbe in ReceiveNextEventCommon
+#20 0x007ff815ee6918 in _BlockUntilNextEventMatchingListInModeWithFilter
+#21 0x007ff80f4ff5d0 in _DPSNextEvent
+#22 0x007ff80f4fe47a in -[NSApplication(NSEvent) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+#23 0x007ff80f4f0ae8 in -[NSApplication run]
+#24 0x007ff80f4c4d02 in NSApplicationMain
+#25 0x000001077562b5 in EditorMain(int, char const**)
+#26 0x000001077565d9 in main
+#27 0x007ff80c03741f in start

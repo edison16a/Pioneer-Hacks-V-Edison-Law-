@@ -16,7 +16,7 @@ public class Scenesend : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-            SceneManager.LoadScene("TrashGame");
+            SceneManager.LoadScene("AppIconsScene");
         }
     }
 }

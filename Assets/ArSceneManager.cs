@@ -42,13 +42,12 @@ public class ArSceneManager : MonoBehaviour
         ARSessionFactory.SessionInitialized += OnSessionInitialized;
         randomNum = Random.Range(1, 4);
 
-        upNext = showUpNext(); //Spawns the trash which will come next and assigns it to a variable
     }
 
     // Update is called once per frame
     void Update()
     {
-        updateUpNext(upNext);
+        
         //If there is no touch, we're not going to do anything
         if (PlatformAgnosticInput.touchCount <= 0)
         {
@@ -123,60 +122,10 @@ public class ArSceneManager : MonoBehaviour
         randomNum = Random.Range(1, 4);
 
         //Show the new trash type
-        upNext = showUpNext();
+       
     }
 
-    private GameObject showUpNext()
-    {
-        time = 0f;
-        GameObject upNext;
 
-        switch (randomNum)
-        {
-            case 1:
-                upNext = Instantiate(_organicTrash);  //Spawn a new ball from our Ball Prefab
-                upNext.transform.rotation = Quaternion.Euler(new Vector3(0.0f, 0.0f, 0.0f));   //Set the rotation of our new Ball
-                upNext.transform.position = _mainCamera.transform.position + _mainCamera.transform.forward;
-                break;
-            case 2:
-                upNext = Instantiate(_trashTrash);  //Spawn a new ball from our Ball Prefab
-                upNext.transform.rotation = Quaternion.Euler(new Vector3(0.0f, 0.0f, 0.0f));   //Set the rotation of our new Ball
-                upNext.transform.position = _mainCamera.transform.position + _mainCamera.transform.forward;
-                break;
-            case 3:
-                upNext = Instantiate(_recycleTrash);  //Spawn a new ball from our Ball Prefab
-                upNext.transform.rotation = Quaternion.Euler(new Vector3(0.0f, 0.0f, 0.0f));   //Set the rotation of our new Ball
-                upNext.transform.position = _mainCamera.transform.position + _mainCamera.transform.forward;
-                break;
-            default:
-                upNext = Instantiate(_ballPrefab);  //Spawn a new ball from our Ball Prefab
-                upNext.transform.rotation = Quaternion.Euler(new Vector3(0.0f, 0.0f, 0.0f));   //Set the rotation of our new Ball
-                upNext.transform.position = _mainCamera.transform.position + _mainCamera.transform.forward;
-                break;
-        }
-
-        return upNext;
-    }
-
-    private void updateUpNext(GameObject upNext)
-    {
-        time += Time.deltaTime;
-        //upNext.transform.rotation = _mainCamera.transform.rotation + Quaternion.Euler(new Vector3(0.0f, 3.0f, 0.0f));   //Set the rotation of our new Ball
-        upNext.transform.rotation = Quaternion.Euler(new Vector3(0.0f, 0.0f, 0.0f));
-        upNext.transform.position = Vector3.Lerp((_mainCamera.transform.position + _mainCamera.transform.forward - _mainCamera.transform.up), _mainCamera.transform.position + _mainCamera.transform.forward, EaseOut(time / 1.5f));
-        
-        //Add timer///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-
-        if (variableHolder.trash < 0)
-        {
-            for(float i = 0f; i < 5f; i += Time.deltaTime)
-            {
-
-            }
-            SceneManager.LoadScene("TrashGame");
-        }
-    }
     private float EaseOut(float k)
     {
         return 1f + ((k -= 1f) * k * k);

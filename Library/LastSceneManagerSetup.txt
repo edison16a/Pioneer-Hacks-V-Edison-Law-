@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/TrashGame.unity
+- path: Assets/Scenes/LogoIntro.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

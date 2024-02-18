@@ -29,6 +29,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/AppIconsScene.unity",
+                "Assets/Scenes/ARHealth.unity",
                 "Assets/Scenes/ARScene.unity",
                 "Assets/Scenes/LogoIntro.unity"
             ]
@@ -40,6 +41,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/AppIconsScene.unity",
+                "Assets/Scenes/ARHealth.unity",
                 "Assets/Scenes/ARScene.unity",
                 "Assets/Scenes/LogoIntro.unity"
             ]
@@ -58,6 +60,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/AppIconsScene.unity",
+                "Assets/Scenes/ARHealth.unity",
                 "Assets/Scenes/ARScene.unity",
                 "Assets/Scenes/LogoIntro.unity"
             ]
@@ -69,6 +72,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/AppIconsScene.unity",
+                "Assets/Scenes/ARHealth.unity",
                 "Assets/Scenes/ARScene.unity",
                 "Assets/Scenes/LogoIntro.unity"
             ]
@@ -87,6 +91,7 @@
             "moduleName": "AI",
             "usedInScenes": [
                 "Assets/Scenes/AppIconsScene.unity",
+                "Assets/Scenes/ARHealth.unity",
                 "Assets/Scenes/ARScene.unity",
                 "Assets/Scenes/LogoIntro.unity"
             ]
@@ -185,7 +190,28 @@
         {
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
+            "fullManagedTypeName": "SendAR2",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
             "fullManagedTypeName": "SendBack",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "SendHome",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "SendHome2",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -273,6 +299,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/AppIconsScene.unity",
+                "Assets/Scenes/ARHealth.unity",
                 "Assets/Scenes/ARScene.unity",
                 "Assets/Scenes/LogoIntro.unity"
             ]
@@ -334,6 +361,7 @@
             "fullManagedTypeName": "UnityEngine.Animator",
             "moduleName": "Animation",
             "usedInScenes": [
+                "Assets/Scenes/ARHealth.unity",
                 "Assets/Scenes/ARScene.unity",
                 "Assets/Scenes/LogoIntro.unity"
             ]
@@ -345,6 +373,7 @@
             "moduleName": "Audio",
             "usedInScenes": [
                 "Assets/Scenes/AppIconsScene.unity",
+                "Assets/Scenes/ARHealth.unity",
                 "Assets/Scenes/ARScene.unity",
                 "Assets/Scenes/LogoIntro.unity"
             ]
@@ -356,6 +385,7 @@
             "moduleName": "Audio",
             "usedInScenes": [
                 "Assets/Scenes/AppIconsScene.unity",
+                "Assets/Scenes/ARHealth.unity",
                 "Assets/Scenes/ARScene.unity",
                 "Assets/Scenes/LogoIntro.unity"
             ]
@@ -366,6 +396,7 @@
             "fullManagedTypeName": "UnityEngine.Avatar",
             "moduleName": "Animation",
             "usedInScenes": [
+                "Assets/Scenes/ARHealth.unity",
                 "Assets/Scenes/ARScene.unity"
             ]
         },
@@ -376,6 +407,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/AppIconsScene.unity",
+                "Assets/Scenes/ARHealth.unity",
                 "Assets/Scenes/ARScene.unity",
                 "Assets/Scenes/LogoIntro.unity"
             ]
@@ -387,6 +419,7 @@
             "moduleName": "Physics",
             "usedInScenes": [
                 "Assets/Scenes/AppIconsScene.unity",
+                "Assets/Scenes/ARHealth.unity",
                 "Assets/Scenes/ARScene.unity"
             ]
         },
@@ -397,6 +430,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/AppIconsScene.unity",
+                "Assets/Scenes/ARHealth.unity",
                 "Assets/Scenes/ARScene.unity",
                 "Assets/Scenes/LogoIntro.unity"
             ]
@@ -408,6 +442,7 @@
             "moduleName": "UI",
             "usedInScenes": [
                 "Assets/Scenes/AppIconsScene.unity",
+                "Assets/Scenes/ARHealth.unity",
                 "Assets/Scenes/ARScene.unity",
                 "Assets/Scenes/LogoIntro.unity"
             ]
@@ -419,6 +454,7 @@
             "moduleName": "UI",
             "usedInScenes": [
                 "Assets/Scenes/AppIconsScene.unity",
+                "Assets/Scenes/ARHealth.unity",
                 "Assets/Scenes/ARScene.unity",
                 "Assets/Scenes/LogoIntro.unity"
             ]
@@ -430,6 +466,7 @@
             "moduleName": "Physics",
             "usedInScenes": [
                 "Assets/Scenes/AppIconsScene.unity",
+                "Assets/Scenes/ARHealth.unity",
                 "Assets/Scenes/ARScene.unity"
             ]
         },
@@ -440,6 +477,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/AppIconsScene.unity",
+                "Assets/Scenes/ARHealth.unity",
                 "Assets/Scenes/ARScene.unity",
                 "Assets/Scenes/LogoIntro.unity"
             ]
@@ -460,6 +498,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/AppIconsScene.unity",
+                "Assets/Scenes/ARHealth.unity",
                 "Assets/Scenes/ARScene.unity",
                 "Assets/Scenes/LogoIntro.unity"
             ]
@@ -485,6 +524,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/AppIconsScene.unity",
+                "Assets/Scenes/ARHealth.unity",
                 "Assets/Scenes/ARScene.unity"
             ]
         },
@@ -495,7 +535,6 @@
             "moduleName": "TextRendering",
             "usedInScenes": [
                 "Assets/Scenes/AppIconsScene.unity",
-                "Assets/Scenes/ARScene.unity",
                 "Assets/Scenes/LogoIntro.unity"
             ]
         },
@@ -506,6 +545,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/AppIconsScene.unity",
+                "Assets/Scenes/ARHealth.unity",
                 "Assets/Scenes/ARScene.unity",
                 "Assets/Scenes/LogoIntro.unity"
             ]
@@ -517,6 +557,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/AppIconsScene.unity",
+                "Assets/Scenes/ARHealth.unity",
                 "Assets/Scenes/ARScene.unity",
                 "Assets/Scenes/LogoIntro.unity"
             ]
@@ -528,6 +569,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/AppIconsScene.unity",
+                "Assets/Scenes/ARHealth.unity",
                 "Assets/Scenes/ARScene.unity",
                 "Assets/Scenes/LogoIntro.unity"
             ]
@@ -539,6 +581,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/AppIconsScene.unity",
+                "Assets/Scenes/ARHealth.unity",
                 "Assets/Scenes/ARScene.unity",
                 "Assets/Scenes/LogoIntro.unity"
             ]
@@ -550,6 +593,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/AppIconsScene.unity",
+                "Assets/Scenes/ARHealth.unity",
                 "Assets/Scenes/ARScene.unity"
             ]
         },
@@ -560,6 +604,7 @@
             "moduleName": "Physics",
             "usedInScenes": [
                 "Assets/Scenes/AppIconsScene.unity",
+                "Assets/Scenes/ARHealth.unity",
                 "Assets/Scenes/ARScene.unity"
             ]
         },
@@ -570,6 +615,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/AppIconsScene.unity",
+                "Assets/Scenes/ARHealth.unity",
                 "Assets/Scenes/ARScene.unity"
             ]
         },
@@ -580,6 +626,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/AppIconsScene.unity",
+                "Assets/Scenes/ARHealth.unity",
                 "Assets/Scenes/ARScene.unity"
             ]
         },
@@ -590,6 +637,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/AppIconsScene.unity",
+                "Assets/Scenes/ARHealth.unity",
                 "Assets/Scenes/ARScene.unity",
                 "Assets/Scenes/LogoIntro.unity"
             ]
@@ -610,6 +658,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/AppIconsScene.unity",
+                "Assets/Scenes/ARHealth.unity",
                 "Assets/Scenes/ARScene.unity",
                 "Assets/Scenes/LogoIntro.unity"
             ]
@@ -637,6 +686,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/AppIconsScene.unity",
+                "Assets/Scenes/ARHealth.unity",
                 "Assets/Scenes/ARScene.unity",
                 "Assets/Scenes/LogoIntro.unity"
             ]
@@ -648,6 +698,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/AppIconsScene.unity",
+                "Assets/Scenes/ARHealth.unity",
                 "Assets/Scenes/ARScene.unity"
             ]
         },
@@ -665,6 +716,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/AppIconsScene.unity",
+                "Assets/Scenes/ARHealth.unity",
                 "Assets/Scenes/ARScene.unity",
                 "Assets/Scenes/LogoIntro.unity"
             ]
@@ -676,6 +728,7 @@
             "moduleName": "Physics",
             "usedInScenes": [
                 "Assets/Scenes/AppIconsScene.unity",
+                "Assets/Scenes/ARHealth.unity",
                 "Assets/Scenes/ARScene.unity"
             ]
         },
@@ -686,6 +739,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/AppIconsScene.unity",
+                "Assets/Scenes/ARHealth.unity",
                 "Assets/Scenes/ARScene.unity",
                 "Assets/Scenes/LogoIntro.unity"
             ]
@@ -697,6 +751,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/AppIconsScene.unity",
+                "Assets/Scenes/ARHealth.unity",
                 "Assets/Scenes/ARScene.unity",
                 "Assets/Scenes/LogoIntro.unity"
             ]
@@ -708,6 +763,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/AppIconsScene.unity",
+                "Assets/Scenes/ARHealth.unity",
                 "Assets/Scenes/ARScene.unity"
             ]
         },
@@ -718,6 +774,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/AppIconsScene.unity",
+                "Assets/Scenes/ARHealth.unity",
                 "Assets/Scenes/ARScene.unity",
                 "Assets/Scenes/LogoIntro.unity"
             ]
@@ -729,6 +786,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/AppIconsScene.unity",
+                "Assets/Scenes/ARHealth.unity",
                 "Assets/Scenes/ARScene.unity",
                 "Assets/Scenes/LogoIntro.unity"
             ]
@@ -740,6 +798,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/AppIconsScene.unity",
+                "Assets/Scenes/ARHealth.unity",
                 "Assets/Scenes/ARScene.unity",
                 "Assets/Scenes/LogoIntro.unity"
             ]
@@ -765,6 +824,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/AppIconsScene.unity",
+                "Assets/Scenes/ARHealth.unity",
                 "Assets/Scenes/ARScene.unity",
                 "Assets/Scenes/LogoIntro.unity"
             ]

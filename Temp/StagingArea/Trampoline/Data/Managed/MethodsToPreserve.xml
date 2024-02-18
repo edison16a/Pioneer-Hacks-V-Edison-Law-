@@ -1,0 +1,19 @@
+<linker>
+	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
+		<type fullname="Scenesend">
+			<method name="Click"/>
+		</type>
+		<type fullname="SendAR">
+			<method name="SendAR2"/>
+		</type>
+		<type fullname="SendAR2">
+			<method name="Health"/>
+		</type>
+		<type fullname="SendHome">
+			<method name="Home2"/>
+		</type>
+		<type fullname="SendHome2">
+			<method name="Home"/>
+		</type>
+	</assembly>
+</linker>

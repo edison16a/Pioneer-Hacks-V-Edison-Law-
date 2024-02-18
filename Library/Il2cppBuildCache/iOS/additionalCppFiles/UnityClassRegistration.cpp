@@ -166,7 +166,7 @@ class WindZone;
 namespace UI { class CanvasRenderer; } template <> void RegisterUnityClass<UI::CanvasRenderer>(const char*);
 class Collider; template <> void RegisterUnityClass<Collider>(const char*);
 class BoxCollider; template <> void RegisterUnityClass<BoxCollider>(const char*);
-class CapsuleCollider; template <> void RegisterUnityClass<CapsuleCollider>(const char*);
+class CapsuleCollider; 
 class CharacterController; 
 class MeshCollider; template <> void RegisterUnityClass<MeshCollider>(const char*);
 class SphereCollider; 
@@ -188,7 +188,7 @@ class BillboardRenderer;
 class LineRenderer; template <> void RegisterUnityClass<LineRenderer>(const char*);
 class MeshRenderer; template <> void RegisterUnityClass<MeshRenderer>(const char*);
 class ParticleSystemRenderer; template <> void RegisterUnityClass<ParticleSystemRenderer>(const char*);
-class SkinnedMeshRenderer; template <> void RegisterUnityClass<SkinnedMeshRenderer>(const char*);
+class SkinnedMeshRenderer; 
 class SpriteMask; 
 class SpriteRenderer; template <> void RegisterUnityClass<SpriteRenderer>(const char*);
 class SpriteShapeRenderer; 
@@ -295,7 +295,7 @@ void RegisterAllClasses()
 {
 void RegisterBuiltinTypes();
 RegisterBuiltinTypes();
-	//Total: 90 non stripped classes
+	//Total: 88 non stripped classes
 	//0. NavMeshAgent
 	RegisterUnityClass<NavMeshAgent>("AI");
 	//1. NavMeshData
@@ -420,61 +420,57 @@ RegisterBuiltinTypes();
 	RegisterUnityClass<Shader>("Core");
 	//61. ShaderNameRegistry
 	RegisterUnityClass<ShaderNameRegistry>("Core");
-	//62. SkinnedMeshRenderer
-	RegisterUnityClass<SkinnedMeshRenderer>("Core");
-	//63. Sprite
+	//62. Sprite
 	RegisterUnityClass<Sprite>("Core");
-	//64. SpriteAtlas
+	//63. SpriteAtlas
 	RegisterUnityClass<SpriteAtlas>("Core");
-	//65. SpriteRenderer
+	//64. SpriteRenderer
 	RegisterUnityClass<SpriteRenderer>("Core");
-	//66. TagManager
+	//65. TagManager
 	RegisterUnityClass<TagManager>("Core");
-	//67. TextAsset
+	//66. TextAsset
 	RegisterUnityClass<TextAsset>("Core");
-	//68. Texture
+	//67. Texture
 	RegisterUnityClass<Texture>("Core");
-	//69. Texture2D
+	//68. Texture2D
 	RegisterUnityClass<Texture2D>("Core");
-	//70. Texture2DArray
+	//69. Texture2DArray
 	RegisterUnityClass<Texture2DArray>("Core");
-	//71. Texture3D
+	//70. Texture3D
 	RegisterUnityClass<Texture3D>("Core");
-	//72. TimeManager
+	//71. TimeManager
 	RegisterUnityClass<TimeManager>("Core");
-	//73. Transform
+	//72. Transform
 	RegisterUnityClass<Transform>("Core");
-	//74. PlayableDirector
+	//73. PlayableDirector
 	RegisterUnityClass<PlayableDirector>("Director");
-	//75. ParticleSystem
+	//74. ParticleSystem
 	RegisterUnityClass<ParticleSystem>("ParticleSystem");
-	//76. ParticleSystemRenderer
+	//75. ParticleSystemRenderer
 	RegisterUnityClass<ParticleSystemRenderer>("ParticleSystem");
-	//77. BoxCollider
+	//76. BoxCollider
 	RegisterUnityClass<BoxCollider>("Physics");
-	//78. CapsuleCollider
-	RegisterUnityClass<CapsuleCollider>("Physics");
-	//79. Collider
+	//77. Collider
 	RegisterUnityClass<Collider>("Physics");
-	//80. MeshCollider
+	//78. MeshCollider
 	RegisterUnityClass<MeshCollider>("Physics");
-	//81. PhysicsManager
+	//79. PhysicsManager
 	RegisterUnityClass<PhysicsManager>("Physics");
-	//82. Rigidbody
+	//80. Rigidbody
 	RegisterUnityClass<Rigidbody>("Physics");
-	//83. Terrain
+	//81. Terrain
 	RegisterUnityClass<Terrain>("Terrain");
-	//84. TerrainData
+	//82. TerrainData
 	RegisterUnityClass<TerrainData>("Terrain");
-	//85. TextRendering::Font
+	//83. TextRendering::Font
 	RegisterUnityClass<TextRendering::Font>("TextRendering");
-	//86. TextRenderingPrivate::TextMesh
+	//84. TextRenderingPrivate::TextMesh
 	RegisterUnityClass<TextRenderingPrivate::TextMesh>("TextRendering");
-	//87. UI::Canvas
+	//85. UI::Canvas
 	RegisterUnityClass<UI::Canvas>("UI");
-	//88. UI::CanvasGroup
+	//86. UI::CanvasGroup
 	RegisterUnityClass<UI::CanvasGroup>("UI");
-	//89. UI::CanvasRenderer
+	//87. UI::CanvasRenderer
 	RegisterUnityClass<UI::CanvasRenderer>("UI");
 
 }

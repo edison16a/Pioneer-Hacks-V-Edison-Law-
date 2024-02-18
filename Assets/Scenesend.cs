@@ -5,18 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class Scenesend : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    // Method to handle button click
 
-    // Update is called once per frame
-    void Update()
+    
+    public void Click()
     {
-        if (Input.GetMouseButtonDown(0))
-        {
-            SceneManager.LoadScene("AppIconsScene");
-        }
-    }
+        SceneManager.LoadScene("AppIconsScene");
+    } 
+
 }

@@ -14,7 +14,10 @@
 		<type fullname="ArSceneManager" preserve="nothing"/>
 		<type fullname="Scenesend" preserve="nothing"/>
 		<type fullname="SendAR" preserve="nothing"/>
+		<type fullname="SendAR2" preserve="nothing"/>
 		<type fullname="SendBack" preserve="nothing"/>
+		<type fullname="SendHome" preserve="nothing"/>
+		<type fullname="SendHome2" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Unity.TextMeshPro">
 		<type fullname="TMPro.TextMeshProUGUI" preserve="nothing"/>

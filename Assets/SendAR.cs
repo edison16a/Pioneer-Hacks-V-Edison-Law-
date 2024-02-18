@@ -5,18 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class SendAR : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    // Method to handle button click
 
-    // Update is called once per frame
-    void Update()
+    
+    public void SendAR2()
     {
-        if (Input.GetMouseButtonDown(0))
-        {
-            SceneManager.LoadScene("ARScene");
-        }
-    }
+        SceneManager.LoadScene("ARScene");
+    } 
+
 }

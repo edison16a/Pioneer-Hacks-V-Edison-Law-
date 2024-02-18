@@ -37,6 +37,8 @@
     <string>For ARDK</string>
     <key>NSLocationWhenInUseUsageDescription</key>
     <string>For ARDK</string>
+    <key>NSMotionUsageDescription</key>
+    <string>Required for Augmented Reality</string>
     <key>UILaunchStoryboardName</key>
     <string>LaunchScreen-iPhone</string>
     <key>UILaunchStoryboardName~ipad</key>
